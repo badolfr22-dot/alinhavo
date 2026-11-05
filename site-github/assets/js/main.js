@@ -15,7 +15,7 @@
  * (mailto) já preenchido com os dados, para que nenhum contato se perca.
  */
 const NEXORA_CONFIG = {
-  FORM_ENDPOINT: "",
+  FORM_ENDPOINT: "https://formspree.io/f/xpppnljy",
   USE_NETLIFY_FORMS: false,
   CONTACT_EMAIL: "badolfr22@gmail.com",
   SUCCESS_URL: "obrigado.html",
