@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+Disallow: /obrigado.html
+
+Sitemap: https://badolfr22-dot.github.io/nexora/sitemap.xml

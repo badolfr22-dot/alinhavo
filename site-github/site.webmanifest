@@ -1,0 +1,11 @@
+{
+  "name": "NEXORA Technologies",
+  "short_name": "NEXORA",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#071127",
+  "theme_color": "#071127",
+  "icons": [
+    { "src": "/assets/img/favicon.svg", "sizes": "any", "type": "image/svg+xml" }
+  ]
+}
