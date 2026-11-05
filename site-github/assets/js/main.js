@@ -1,5 +1,5 @@
 /* ==========================================================================
-   NEXORA TECHNOLOGIES — Scripts do site
+   ALINHAVO TECH — Scripts do site
    Sem dependências externas. Carregado com "defer".
    ========================================================================== */
 
