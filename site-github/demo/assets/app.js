@@ -1,11 +1,11 @@
 /* ==========================================================================
-   Nexora Flow — demonstração de automação de aprovações + painel
+   Alinhavo Flow — demonstração de automação de aprovações + painel
    100% no navegador, sem dependências. Dados fictícios gerados localmente.
    ========================================================================== */
 (function () {
   "use strict";
 
-  const STORE_KEY = "nexora-flow-demo-v1";
+  const STORE_KEY = "alinhavo-flow-demo-v1";
   const HOUR = 3600e3, DAY = 24 * HOUR;
 
   /* ---------- Dados de referência (fictícios) ---------- */
@@ -424,7 +424,7 @@
     const id = (location.hash.replace(/^#\/?/, "") || "painel");
     current = VIEWS[id] ? id : "painel";
     view.innerHTML = VIEWS[current]();
-    document.title = PAGES.find((p) => p.id === current).label + " · Nexora Flow · Demonstração";
+    document.title = PAGES.find((p) => p.id === current).label + " · Alinhavo Flow · Demonstração";
     renderMenu();
     bindCharts(view);
     if (focus) view.focus({ preventScroll: true });

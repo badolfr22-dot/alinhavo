@@ -6,9 +6,9 @@
   </defs>
   <rect width="64" height="64" rx="14" fill="url(#bg)"/>
   <g transform="translate(12 12)">
-    <path d="M2 2h7v36H2z" fill="url(#s)"/>
-    <path d="M31 2h7v36h-7z" fill="url(#s)"/>
-    <path d="M2 2h7l29 36h-7z" fill="url(#d)"/>
-    <circle cx="34.5" cy="5.5" r="3.5" fill="#5AA2FF"/>
+    <path d="M0 40h7.5L24 0h-8z" fill="url(#s)"/>
+    <path d="M16 0h8l16 40h-7.5z" fill="url(#d)"/>
+    <path d="M3 27.5H33" stroke="#5AA2FF" stroke-width="3" stroke-dasharray="4.5 3" fill="none"/>
+    <circle cx="37.6" cy="27.5" r="2.4" fill="#5AA2FF"/>
   </g>
 </svg>
