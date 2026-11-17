@@ -670,3 +670,10 @@ button, input, select, textarea { font: inherit; color: inherit; }
   .wa-float span { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); }
 }
 @media print { .wa-float { display: none; } }
+
+/* Botão Entrar (Alinhavo Platform) ao lado do orçamento */
+.nav__login + .nav__cta { margin-left: 8px; }
+.footer__legal { display: inline-flex; gap: 6px; flex-wrap: wrap; }
+@media (max-width: 960px) {
+  .nav__login + .nav__cta { margin: 12px 0 0; }
+}
